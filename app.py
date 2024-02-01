@@ -9,7 +9,7 @@ model = pickle.load(open('randomForestRegressor.pkl','rb'))
 
 @app.route('/')
 def home():
-    #return 'Hello World'
+    #return 'Hello World',    this is am example
     return render_template('home.html')
     #return render_template('index.html')
 
